@@ -1,0 +1,2 @@
+(()=>{"use strict";var e={52:()=>{var e=document.querySelector(".form");document.querySelector(".username"),document.querySelector(".email"),document.querySelector(".password"),document.querySelector(".password2"),e.addEventListener("submit",(function(e){e.preventDefault()}))}},r={};!function t(o){var u=r[o];if(void 0!==u)return u.exports;var n=r[o]={exports:{}};return e[o](n,n.exports,t),n.exports}(52)})();
+//# sourceMappingURL=bundle.js.map
