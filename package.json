@@ -1,7 +1,25 @@
 {
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "A brief description of your project",
+  "main": "index.js",
+  "scripts": {
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
+  },
   "devDependencies": {
+    "@types/node": "^22.3.0",
+    "@types/validator": "^13.12.0",
     "@typescript-eslint/eslint-plugin": "^8.1.0",
     "@typescript-eslint/parser": "^8.1.0",
-    "typescript": "^5.5.4"
+    "eslint": "^8.51.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "validator": "^13.12.0"
   }
 }
