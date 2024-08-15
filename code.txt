@@ -1,2 +1,29 @@
 npx tsc --init
 npx tsc
+
+criação do webpack
+crie um arquivo webpack.config.js
+
+rodar o webpack
+-npx webpack // cria dist
+
+npx webpack -w //monitoramento do código e atulização em tempo real
+
+troque o dist pelo frontend
+
+tera dois 'tsconfig' um para o frontend e o outro para o backend
+
+configurando o webpack
+
+https://github.com/TypeStrong/ts-loader?tab=readme-ov-file#configfile
+procure pele configfile
+o path se for atualizado não se esqueça de configurar o tsconfig
+
+
+npx tsc // criar o dist do .ts
+
+o "build:frontend": "webpack -w" localizado no package esta ligado com o tsconfig-frontend
+
+para rodar o index.html e necessario rodar o código "npm run build:frontend" e logo depois o index.html junto com o live server
+
+npm i validator
