@@ -4,7 +4,7 @@ export class Pessoa {
         public sobrenome: string,
         private idade: number,
         protected cpf: string,
-    ){}
+    ) { }
 
     getIdade(): number {
         return this.idade;
@@ -19,8 +19,8 @@ export class Pessoa {
     }
 }
 
-export class Aluno extends Pessoa{
-    constructor(nome: string, sobrenome: string, idade: number, cpf: string, public sala: string){
+export class Aluno extends Pessoa {
+    constructor(nome: string, sobrenome: string, idade: number, cpf: string, public sala: string) {
         super(nome, sobrenome, idade, cpf)
     }
 
@@ -30,7 +30,7 @@ export class Aluno extends Pessoa{
     }
 }
 
-export class Cliente extends Pessoa{
+export class Cliente extends Pessoa {
     getNomeCompleto(): string {
         return 'Isso vem do cliente: ' + this.nome + ' ' + this.sobrenome
     }
