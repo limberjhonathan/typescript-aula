@@ -27,3 +27,8 @@ o "build:frontend": "webpack -w" localizado no package esta ligado com o tsconfi
 para rodar o index.html e necessario rodar o código "npm run build:frontend" e logo depois o index.html junto com o live server
 
 npm i validator
+
+
+
+
+https://www.yworks.com/yed-live/ - criação de diagramas UML
