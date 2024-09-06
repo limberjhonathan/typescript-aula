@@ -29,6 +29,10 @@ para rodar o index.html e necessario rodar o código "npm run build:frontend" e 
 npm i validator
 
 
+Esse comando compila o arquivo TypeScript src/A0059-namespaces/index.ts para JavaScript e gera um arquivo de saída concatenado em src/A0059-namespaces/index.js.
+npx tsc src/A0059-namespaces/index.ts --outFile src/A0059-namespaces/index.js
 
+para instalar a tipagem do validator
+npm i @types/validator
 
 https://www.yworks.com/yed-live/ - criação de diagramas UML
